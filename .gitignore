@@ -5,3 +5,6 @@ __pycache__/
 *.egg-info/
 artifacts/
 
+.DS_Store
+.idea/
+.vscode/
