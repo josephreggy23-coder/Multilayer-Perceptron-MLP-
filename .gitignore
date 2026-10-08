@@ -14,3 +14,5 @@ htmlcov/
 dist/
 build/
 .ruff_cache/
+venv/
+Thumbs.db
