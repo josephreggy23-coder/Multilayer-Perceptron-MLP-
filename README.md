@@ -102,6 +102,7 @@ Use Python 3.10+ and install the package in editable mode:
 ```bash
 python -m venv .venv
 .venv\Scripts\activate  # Windows PowerShell
+# source .venv/bin/activate  # macOS/Linux
 python -m pip install -e ".[dev]"
 ```
 
