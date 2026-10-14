@@ -16,3 +16,5 @@ build/
 .ruff_cache/
 venv/
 Thumbs.db
+*$py.class
+.ipynb_checkpoints/
