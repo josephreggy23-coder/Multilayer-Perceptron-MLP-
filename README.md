@@ -12,27 +12,27 @@ cross-entropy, and reverse-mode differentiation (backpropagation).
 
 ## Model
 
-For hidden layer \(l\), the MLP applies
+For hidden layer $l$, the MLP applies
 
-\[
+$$
 z^{(l)} = a^{(l-1)}W^{(l)} + b^{(l)}, \qquad
 a^{(l)} = \max(0, z^{(l)}).
-\]
+$$
 
 The final layer produces a categorical probability distribution:
 
-\[
+$$
 p_k = \frac{\exp(z_k - \max_j z_j)}{\sum_j \exp(z_j - \max_j z_j)}.
-\]
+$$
 
 It minimizes mean cross-entropy,
 
-\[
+$$
 \mathcal{L} = -\frac{1}{N}\sum_{i=1}^{N}\log p_{i,y_i},
-\]
+$$
 
 using mini-batch gradient descent. The output-layer derivative simplifies to
-\(\partial \mathcal{L}/\partial z = (p - y)/N\); all earlier derivatives are
+$\partial \mathcal{L}/\partial z = (p - y)/N$; all earlier derivatives are
 calculated by the chain rule.
 
 ## Features
