@@ -18,3 +18,5 @@ venv/
 Thumbs.db
 *$py.class
 .ipynb_checkpoints/
+coverage.xml
+.env
