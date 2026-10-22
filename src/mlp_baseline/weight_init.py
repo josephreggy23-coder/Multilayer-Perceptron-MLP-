@@ -29,7 +29,7 @@ LeCun, Y. et al.  "Efficient BackProp", 1998.
 
 from __future__ import annotations
 
-from typing import Sequence
+from collections.abc import Sequence
 
 import numpy as np
 
