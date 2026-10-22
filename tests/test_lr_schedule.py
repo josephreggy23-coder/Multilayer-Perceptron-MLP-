@@ -5,7 +5,6 @@ without warm restarts, verifying the closed-form expressions from the
 module docstring.
 """
 
-import numpy as np
 import pytest
 
 from mlp_baseline.lr_schedule import (

@@ -79,7 +79,6 @@ Kingma, D. P. & Ba, J. (2015).  Adam: A Method for Stochastic
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
-from copy import deepcopy
 
 import numpy as np
 

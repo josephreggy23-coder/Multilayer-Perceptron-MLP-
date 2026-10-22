@@ -5,7 +5,6 @@ correctness, numerical stability, and expected edge-case behaviour.
 """
 
 import numpy as np
-import pytest
 
 from mlp_baseline.activations import cross_entropy, relu, relu_gradient, softmax
 
