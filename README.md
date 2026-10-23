@@ -144,5 +144,6 @@ tests/            # math, model, and data tests
 ## Limits and next steps
 
 This is a transparent baseline, not a production deep-learning framework. Good
-extensions include momentum/Adam, validation-based early stopping, decision
-boundary plots, and comparisons with logistic regression.
+extensions include validation-based early stopping, decision boundary plots,
+and comparisons with logistic regression. (Momentum and Adam optimizers are
+already available in `optimizers.py`.)
