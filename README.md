@@ -123,6 +123,13 @@ The runner prints a JSON experiment summary and writes it to
 F1, calibration error, a confusion matrix, and per-class scores. Exact numbers
 can vary slightly across NumPy versions.
 
+### Command-line options
+
+| Option | Default | Purpose |
+| --- | ---: | --- |
+| `--epochs` | `300` | Number of passes over the training set |
+| `--output` | `artifacts/metrics.json` | Path for the JSON experiment summary |
+
 ## Project layout
 
 ```text
