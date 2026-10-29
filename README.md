@@ -134,18 +134,18 @@ can vary slightly across NumPy versions.
 
 ```text
 src/mlp_baseline/
-  activations.py  # ReLU, stable softmax, cross-entropy
-  model.py        # MLP parameters, forward pass, backpropagation
-  data.py         # spiral generator, split, standardization
-  metrics.py      # confusion matrix, F1, calibration statistics
-  training.py     # mini-batch optimization loop
-  train.py        # command-line experiment
-  optimizers.py   # first-order optimizers with momentum and adaptive rates
-  lr_schedule.py  # learning rate schedules
-  weight_init.py  # weight initialization strategies
-  regularization.py   # regularization utilities
-  gradient_check.py   # finite-difference check of backpropagation
-tests/            # math, model, and data tests
+  activations.py    # ReLU, stable softmax, cross-entropy
+  model.py          # MLP parameters, forward pass, backpropagation
+  data.py           # spiral generator, split, standardization
+  metrics.py        # confusion matrix, F1, calibration statistics
+  training.py       # mini-batch optimization loop
+  train.py          # command-line experiment
+  optimizers.py     # first-order optimizers with momentum and adaptive rates
+  lr_schedule.py    # learning rate schedules
+  weight_init.py    # weight initialization strategies
+  regularization.py # regularization utilities
+  gradient_check.py # finite-difference check of backpropagation
+tests/              # math, model, and data tests
 ```
 
 ## Limits and next steps
