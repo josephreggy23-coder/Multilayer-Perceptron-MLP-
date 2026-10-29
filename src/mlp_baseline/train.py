@@ -15,8 +15,11 @@ from .training import TrainingConfig, train
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Train a NumPy MLP on spiral data.")
-    parser.add_argument("--epochs", type=int, default=300)
-    parser.add_argument("--output", type=Path, default=Path("artifacts/metrics.json"))
+    parser.add_argument("--epochs", type=int, default=300, help="number of passes over the training set")
+    parser.add_argument(
+        "--output", type=Path, default=Path("artifacts/metrics.json"),
+        help="path for the JSON experiment summary",
+    )
     arguments = parser.parse_args()
 
     features, labels = make_spiral()
